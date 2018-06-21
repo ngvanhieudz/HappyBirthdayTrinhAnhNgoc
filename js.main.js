@@ -19,14 +19,14 @@ function(isConfirm){
  
 
 swal({  
- title: "Bạn có phải là Ánh Ngọc không ? ", 
+ title: "Bạn có phải là Ánh Ngọc không? ", 
   text: "Nhập mã xác nhận ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
  showLoaderOnConfirm: true,
 animation: "slide-from-top",  
- inputPlaceholder: "Mã xác nhận là gì ?" },
+ inputPlaceholder: "Mã xác nhận là gì?" },
  function(inputValue){   
 if (inputValue === false) return false;   
    if (inputValue !== "khongbiet") {   
@@ -61,7 +61,7 @@ if (inputValue === false) return false;
 
  }
 else {   
-  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ Hiếu ,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
+  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ Hiếu, Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
 
   } });
 
